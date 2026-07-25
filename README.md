@@ -209,4 +209,4 @@ Les issues et pull requests sont les bienvenues. Merci de décrire votre modèle
 
 Distribué sous licence [MIT](LICENSE).
 
-Projet non affilié à Avidsen ni à Profalux. Utilisation à vos propres risques ; l'API cloud est non documentée et peut évoluer sans préavis.
+Projet non affilié à Avidsen ni à Profalux. **Utilisation à vos propres risques** ; l'API cloud est non documentée et peut évoluer sans préavis.
