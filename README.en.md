@@ -209,4 +209,4 @@ Issues and pull requests are welcome. Please describe your shutter model and the
 
 Distributed under the [MIT](LICENSE) license.
 
-Project not affiliated with Avidsen or Profalux. Use at your own risk; the cloud API is undocumented and may change without notice.
+Project not affiliated with Avidsen or Profalux. **Use at your own risk**; the cloud API is undocumented and may change without notice.
