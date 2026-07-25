@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Calyps'HOME login",
+        "description": "Enter your Calyps'HOME account credentials (the same as in the mobile app).",
+        "data": {
+          "login": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials.",
+      "cannot_connect": "Cannot reach the Calyps'HOME server."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Shutter travel times",
+        "description": "For each of your {count} shutters, set the full travel time in seconds. open = up/opening, close = down/closing. The number after open_/close_ identifies the shutter (see mapping below).\n\n{legende}"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "favorite_position": { "name": "Favorite position" }
+    },
+    "number": {
+      "travel_time_up": { "name": "Up travel time" },
+      "travel_time_down": { "name": "Down travel time" },
+      "favorite_position_percent": { "name": "Favorite position (%)" }
+    }
+  }
+}

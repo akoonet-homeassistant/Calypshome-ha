@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion Calyps'HOME",
+        "description": "Saisissez les identifiants de votre compte Calyps'HOME (les memes que dans l'application mobile).",
+        "data": {
+          "login": "Email",
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Identifiants invalides.",
+      "cannot_connect": "Impossible de contacter le serveur Calyps'HOME."
+    },
+    "abort": {
+      "already_configured": "Ce compte est deja configure."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Temps de course des volets",
+        "description": "Pour chacun de vos {count} volets, reglez le temps complet en secondes. open = montee/ouverture, close = fermeture/descente. Le numero apres open_/close_ identifie le volet (voir correspondance ci-dessous).\n\n{legende}"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "favorite_position": { "name": "Position favorite" }
+    },
+    "number": {
+      "travel_time_up": { "name": "Temps de montee" },
+      "travel_time_down": { "name": "Temps de descente" },
+      "favorite_position_percent": { "name": "Position favorite (%)" }
+    }
+  }
+}
