@@ -21,8 +21,17 @@ The Avidsen cloud does not report the real shutter position: the integration **e
 
 ---
 
+## ⚠️ Disclaimer
+
+**Install and use at your own risk.** This project is provided "as is", with no guarantee of proper operation, reliability, or fitness for any particular purpose — including actually controlling your shutters correctly. No guarantee is provided either regarding any code modifications that may be made (by the maintainer or by third parties).
+
+Project not affiliated with Avidsen or Profalux. The cloud API used is undocumented and may change or stop working without notice.
+
+---
+
 ## Table of contents
 
+- [Disclaimer](#️-disclaimer)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Entities created](#entities-created-per-shutter)
@@ -208,5 +217,3 @@ Issues and pull requests are welcome. Please describe your shutter model and the
 ## License
 
 Distributed under the [MIT](LICENSE) license.
-
-Project not affiliated with Avidsen or Profalux. **Use at your own risk**; the cloud API is undocumented and may change without notice.
