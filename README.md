@@ -21,8 +21,17 @@ Le cloud Avidsen ne renvoie pas la position réelle des volets : l'intégration 
 
 ---
 
+## ⚠️ Avertissement
+
+**Installation et utilisation à vos propres risques.** Ce projet est fourni « tel quel », sans aucune garantie de fonctionnement, de fiabilité ou d'adéquation à un usage particulier — y compris concernant le pilotage réel de vos volets. Aucune garantie n'est non plus assurée sur les modifications de code éventuellement apportées (par vous-même ou par des tiers).
+
+Projet non affilié à Avidsen ni à Profalux. L'API cloud utilisée est non documentée et peut évoluer ou cesser de fonctionner sans préavis.
+
+---
+
 ## Sommaire
 
+- [Avertissement](#️-avertissement)
 - [Fonctionnalités](#fonctionnalités)
 - [Captures d'écran](#captures-décran)
 - [Entités créées](#entités-créées-par-volet)
@@ -208,5 +217,3 @@ Les issues et pull requests sont les bienvenues. Merci de décrire votre modèle
 ## Licence
 
 Distribué sous licence [MIT](LICENSE).
-
-Projet non affilié à Avidsen ni à Profalux. **Utilisation à vos propres risques** ; l'API cloud est non documentée et peut évoluer sans préavis.
