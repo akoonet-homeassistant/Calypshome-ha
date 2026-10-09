@@ -1,6 +1,6 @@
 # Calyps'HOME (Avidsen Cloud) pour Home Assistant
 
-[English](README.md) | **Français**
+[English](README.en.md) | **Français**
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![Open your Home Assistant instance and open this repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=Calypshome-ha&category=integration)
@@ -163,10 +163,14 @@ Calypshome-ha/
 │       ├── cover.py
 │       ├── number.py
 │       ├── manifest.json
+│       ├── brand/
+│       │   ├── icon.png
+│       │   └── icon@2x.png
 │       ├── strings.json
 │       └── translations/
 │           ├── en.json
 │           └── fr.json
+├── .github/workflows/  (hacs, hassfest, release)
 ├── images/
 │   ├── config-flow.png
 │   ├── device-detail.png
@@ -174,8 +178,8 @@ Calypshome-ha/
 ├── .gitignore
 ├── hacs.json
 ├── LICENSE
-├── README.md          (anglais)
-└── README.fr.md       (français)
+├── README.md          (français)
+└── README.en.md       (anglais)
 ```
 
 ---
