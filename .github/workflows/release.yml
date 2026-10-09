@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Créer la release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier que le tag correspond au manifest
+        run: |
+          v=$(jq -r .version custom_components/calypshome/manifest.json)
+          t="${GITHUB_REF_NAME#v}"
+          [ "$v" = "$t" ] || { echo "manifest=$v tag=$t"; exit 1; }
+      - name: Publier la release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
