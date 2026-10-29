@@ -56,6 +56,7 @@ Projet non affilié à Avidsen ni à Profalux. L'API cloud utilisée est non doc
 - Interface entièrement **traduite (français / anglais)**, noms d'entités inclus.
 - Restauration de la dernière position estimée et des réglages après un redémarrage de Home Assistant.
 - Gestion du token JWT (~6 h) avec rafraîchissement automatique et re-login transparent sur expiration.
+- **Reconnexion guidée** : si le mot de passe change, Home Assistant propose de ressaisir login et mot de passe sans supprimer l'intégration.
 
 ---
 

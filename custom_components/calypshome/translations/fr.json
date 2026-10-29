@@ -8,6 +8,14 @@
           "login": "Email",
           "password": "Mot de passe"
         }
+      },
+      "reauth_confirm": {
+        "title": "Reconnexion Calyps'HOME",
+        "description": "Les identifiants du compte {login} ne sont plus acceptes. Saisissez le login et le nouveau mot de passe de votre compte Calyps'HOME.",
+        "data": {
+          "login": "Email",
+          "password": "Mot de passe"
+        }
       }
     },
     "error": {
@@ -15,7 +23,8 @@
       "cannot_connect": "Impossible de contacter le serveur Calyps'HOME."
     },
     "abort": {
-      "already_configured": "Ce compte est deja configure."
+      "already_configured": "Ce compte est deja configure.",
+      "reauth_successful": "Reconnexion reussie."
     }
   },
   "options": {
@@ -28,12 +37,20 @@
   },
   "entity": {
     "button": {
-      "favorite_position": { "name": "Position favorite" }
+      "favorite_position": {
+        "name": "Position favorite"
+      }
     },
     "number": {
-      "travel_time_up": { "name": "Temps de montee" },
-      "travel_time_down": { "name": "Temps de descente" },
-      "favorite_position_percent": { "name": "Position favorite (%)" }
+      "travel_time_up": {
+        "name": "Temps de montee"
+      },
+      "travel_time_down": {
+        "name": "Temps de descente"
+      },
+      "favorite_position_percent": {
+        "name": "Position favorite (%)"
+      }
     }
   }
 }

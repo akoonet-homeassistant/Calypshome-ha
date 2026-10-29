@@ -56,6 +56,7 @@ Project not affiliated with Avidsen or Profalux. The cloud API used is undocumen
 - Fully **translated interface (English / French)**, entity names included.
 - Restores the last estimated position and settings after a Home Assistant restart.
 - JWT token handling (~6 h) with automatic refresh and transparent re-login on expiry.
+- **Guided re-authentication**: if the password changes, Home Assistant prompts for the new login and password without removing the integration.
 
 ---
 

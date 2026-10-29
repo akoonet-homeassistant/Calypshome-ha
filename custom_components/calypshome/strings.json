@@ -8,6 +8,14 @@
           "login": "Email",
           "password": "Password"
         }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Calyps'HOME",
+        "description": "The credentials for account {login} are no longer accepted. Enter the login and the new password of your Calyps'HOME account.",
+        "data": {
+          "login": "Email",
+          "password": "Password"
+        }
       }
     },
     "error": {
@@ -15,7 +23,8 @@
       "cannot_connect": "Cannot reach the Calyps'HOME server."
     },
     "abort": {
-      "already_configured": "This account is already configured."
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
     }
   },
   "options": {
@@ -28,12 +37,20 @@
   },
   "entity": {
     "button": {
-      "favorite_position": { "name": "Favorite position" }
+      "favorite_position": {
+        "name": "Favorite position"
+      }
     },
     "number": {
-      "travel_time_up": { "name": "Up travel time" },
-      "travel_time_down": { "name": "Down travel time" },
-      "favorite_position_percent": { "name": "Favorite position (%)" }
+      "travel_time_up": {
+        "name": "Up travel time"
+      },
+      "travel_time_down": {
+        "name": "Down travel time"
+      },
+      "favorite_position_percent": {
+        "name": "Favorite position (%)"
+      }
     }
   }
 }
